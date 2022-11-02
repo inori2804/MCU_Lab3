@@ -1,0 +1,2 @@
+led7Seg.c:10:6:display7SEG	16	static
+led7Seg.c:71:6:setEnableSignal	40	static

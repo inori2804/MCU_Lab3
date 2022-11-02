@@ -1,0 +1,2 @@
+set_traffic_light.c:11:6:set_traffic_light	16	static
+set_traffic_light.c:51:6:clearLight	8	static

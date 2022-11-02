@@ -1,0 +1,18 @@
+/*
+ * set_traffic_light.h
+ *
+ *  Created on: Oct 21, 2022
+ *      Author: shiba
+ */
+
+#ifndef INC_SET_TRAFFIC_LIGHT_H_
+#define INC_SET_TRAFFIC_LIGHT_H_
+
+#include"main.h"
+#include"global.h"
+
+// turn on traffic led on specific road (between road 1 and road 2)
+void set_traffic_light(int led_state, int road);
+// turn off all traffic led
+void clearLight();
+#endif /* INC_SET_TRAFFIC_LIGHT_H_ */

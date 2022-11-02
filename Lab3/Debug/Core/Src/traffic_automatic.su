@@ -1,0 +1,2 @@
+traffic_automatic.c:20:6:is_change_mode	8	static
+traffic_automatic.c:33:6:fsm_traffic_automatic	8	static
