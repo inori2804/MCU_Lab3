@@ -13,7 +13,7 @@
 #include"global.h"
 #include"set_traffic_light.h"
 
-//blink specific traffic led with F = 2Hz
+//blink specific traffic led
 void traffic_blink(int state);
 
 #endif /* INC_TRAFFIC_BLINK_H_ */

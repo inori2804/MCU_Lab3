@@ -6,7 +6,7 @@
  */
 
 #include"traffic_blink.h"
-// blink specific traffic led with F = 2Hz
+// blink specific traffic led
 void traffic_blink(int state) {
 	switch (state) {
 	case RED:

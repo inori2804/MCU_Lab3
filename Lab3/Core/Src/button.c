@@ -18,11 +18,7 @@ int button1_flag = 0;
 int button2_flag = 0;
 int button3_flag = 0;
 
-int button1_pressed1s_flag = 0;
-int button2_pressed1s_flag = 0;
-int button3_pressed1s_flag = 0;
-
-int TimeOutForKeyPress = 100;
+int TimeOutForKeyPress[numberOfButton] = {100,100,100};
 
 void subKeyProcess(int i) {
 	//TODO
@@ -59,16 +55,16 @@ void getKeyInput() {
 				KeyReg3[i] = KeyReg2[i];
 
 				if (KeyReg3[i] == PRESSED_STATE) {
-					TimeOutForKeyPress = 100;
+					TimeOutForKeyPress[i] = 100;
 					subKeyProcess(i); // is pressed
 				}
 			} else {
 				TimeOutForKeyPress--;
-				if (TimeOutForKeyPress == 0) {
+				if (TimeOutForKeyPress[i] == 0) {
 					if(KeyReg2[i] == PRESSED_STATE){
 						subKeyProcess(i); // is pressed one second
 					}
-					TimeOutForKeyPress = 100;
+					TimeOutForKeyPress[i] = 100;
 				}
 			}
 		}
