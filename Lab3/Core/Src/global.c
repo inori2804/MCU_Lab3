@@ -9,6 +9,7 @@
 
 int status = AUTO_MODE;
 int ledMode = AUTO_MODE;
+
 int status_1 = RED;
 int status_2 = GREEN;
 

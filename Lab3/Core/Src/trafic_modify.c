@@ -86,6 +86,7 @@ void fsm_traffic_modify() {
 
 			setTimer0(time_red * 1000);
 			setTimer1(time_green * 1000);
+			setTimerCountDown(10);
 
 			time1 = time_red;
 			time2 = time_green;

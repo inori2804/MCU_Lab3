@@ -59,7 +59,7 @@ void getKeyInput() {
 					subKeyProcess(i); // is pressed
 				}
 			} else {
-				TimeOutForKeyPress--;
+				TimeOutForKeyPress[i]--;
 				if (TimeOutForKeyPress[i] == 0) {
 					if(KeyReg2[i] == PRESSED_STATE){
 						subKeyProcess(i); // is pressed one second

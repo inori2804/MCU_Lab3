@@ -102,6 +102,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 
 	//	Init timer
+
 	setTimerLed(500);
 	setTimerCountDown(10);
 	setTimerLed7Seg(10);
